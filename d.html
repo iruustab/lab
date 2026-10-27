@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+     <div ><button id="hariu1" onclick="shoohayh()">BUTTON</button></div>
+     
+     <img src="shoo1.png" alt="" id="zurag">
+        <div id="onoog" style="width: 100px; height: 100px;" 
+        > 
+            
+        </div>
+        <div id="tdiv"></div>
+     
+        
+     <script>
+        let onoo1 = 0;
+        let onooharuulah = document.getElementById("onoog");
+        let shoo = document.getElementById("zurag");
+        let toodiv = document.getElementById("tdiv")
+        function shoohayh(){
+            too = Math.floor(Math.random() * 6) + 1;
+            shoo.src = "shoo"+too+".png"
+            onoo1 = onoo1 + too;
+          
+             onooharuulah.textContent = "onoo" + onoo1;
+             
+             toodiv.appendChild(onooharuulah);
+            
+        } 
+         
+         
+        
+     </script>
+</body>
+
+</html>
